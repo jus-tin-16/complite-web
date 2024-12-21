@@ -20,8 +20,8 @@
             <button class="sidebar-btn" onclick="showSection('userOverview')">
                 <i class="fas fa-users"></i> User Overview
             </button>
-            <button class="sidebar-btn logout-btn" onclick="logout">
-                <i class="fas fa-sign-out-alt"></i>Logout
+            <button class="sidebar-btn logout-btn" >
+                <i class="fas fa-sign-out-alt"></i><a href="{{ url('/logout') }}">Logout</a>
             </button>
         </div>
     </div>
